@@ -2,3 +2,33 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+body {
+  background-color: #cacaca;
+}
+nav {
+  background-color: #00829A;
+}
+.menu, .ios-menu {
+  background-color: #00829A;
+  width: 100%;
+}
+.fe-challenge {
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+  overflow: scroll;
+  background-color: #fff;
+}
+.ios-menu img {
+  max-width: 100%;
+  padding: 5px;
+}
+.menu {
+  height: 50px;
+}
+.menu button {
+  background-color: transparent;
+  border: 0;
+  height: 20px;
+  display: inline-block;
+}
