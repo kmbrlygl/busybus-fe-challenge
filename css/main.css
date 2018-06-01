@@ -27,7 +27,7 @@ nav {
 .menu {
   height: 50px;
   display: flex;
-  padding: 10px;
+  padding: 1em;
 }
 .menu button {
   background-color: transparent;
@@ -35,5 +35,34 @@ nav {
   height: 20px;
   width: 20%;
 }
+.bus {
+  padding-left: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.bus-info {
+  margin-left: 2em;
+  width: 100%;
+}
 
 /* typography */
+h1, h2, p {
+  font-size: 2em;
+  padding: .5em 0 .5em 1em;
+}
+h1, h2 {
+  font-weight: 600;
+}
+h3 {
+  height: 1.5em;
+  font-size: 1.5em;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #EFEFF4;
+  color: #00829A;
+  padding: .25em 1em;
+}
+li {
+  font-size: 2em;
+}
