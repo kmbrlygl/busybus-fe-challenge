@@ -110,3 +110,28 @@ ul {
 }
 
 /* image and icon styles */
+
+
+.test {
+  min-height: 10em;
+  padding: 2em;
+}
+/* flexbox shenanigans */
+.line {
+  order: 1;
+  width: 22%;
+}
+.freq {
+  order: 2;
+  width: 41%;
+}
+.dest {
+  order: 3;
+  width: 30%;
+}
+.arr {
+  order: 4;
+}
+.arrow {
+  order: 5;
+}
