@@ -6,11 +6,12 @@ body {
   background-color: #cacaca;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
+  color: #666;
 }
 nav {
   background-color: #00829A;
 }
-.menu, .ios-menu {
+nav, .status-bar {
   background-color: #00829A;
   width: 100%;
 }
@@ -21,10 +22,11 @@ nav {
   overflow: scroll;
   background-color: #fff;
 }
-.ios-menu img {
+.status-bar img {
   max-width: 100%;
+  padding: 5px;
 }
-.menu {
+nav {
   height: 5em;
   display: flex;
   justify-content: space-between;
@@ -32,7 +34,7 @@ nav {
   padding: 1em;
   color: #fff;
 }
-.menu button {
+nav button {
   background-color: transparent;
   border: 0;
   height: 2em;
@@ -48,6 +50,11 @@ nav {
   margin-left: 2em;
   width: 100%;
   font-size: 1em;
+}
+.bus-icon {
+  width: 13.1em;
+  background-repeat: no-repeat;
+  background-image: url(../images/bus-icon.png);
 }
 .filter button {
   font-size: 2em;
@@ -65,14 +72,16 @@ nav {
 }
 
 /* typography */
-h1 {
-  font-size: 2em;
-}
-h2, p {
-  font-size: 2em;
-}
 h1, h2 {
+  font-size: 2em;
   font-weight: 600;
+}
+h1 {
+  margin: 1em 0 .5em 0;
+  color: red;
+}
+.arriving h2,.filter h2,.bus-listings h2 {
+  margin: 1em 0 .5em 0;
 }
 /*h2 {
   padding: 1em 0 .5em 0;
@@ -87,3 +96,17 @@ h3 {
   color: #00829A;
   padding: .5em 1em;
 }
+ul {
+  font-size: 2em;
+  display: flex;
+}
+.bus-line {
+  font-size: 2em;
+  font-weight: 600;
+}
+.bus-freq {
+  font-size: .75em;
+  font-style: italic;
+}
+
+/* image and icon styles */

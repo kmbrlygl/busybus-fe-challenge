@@ -9,35 +9,34 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
 </head>
 <body>
-        <div class="fe-challenge">
-            <div class="ios-menu">
+        <main class="fe-challenge">
+            <div class="status-bar">
                 <img src="../images/ios-bar.png" alt="iOs menu bar">
-<!--                <img src="" alt="Signal Strength High">
-                <p>8:01 AM</p>
-                <p>100%</p>
--->
             </div>
-            <div class="busybus-app">
-                <div class="menu">
+            <section class="busybus-app">
+                <nav>
                     <button><img src="../images/back-arrow.png" alt="Back Button"></button>
                     <h2>Washington & State</h2>
                     <button><img src="../images/refresh.png" alt="Refresh"></button>
-                </div>
-                <div class="app arriving">
+                </nav>
+                <section class="app arriving">
                     <h1>Arriving in 2 mins</h1>
                     <div class="bus">
-                        <img src="../images/bus-icon.png" alt="">
+                        <div class="bus-icon"></div>
                         <div class="bus-info">
-                            <h3 class="direction">Eastbound</h3>
+                            <h3>Eastbound</h3>
                             <ul>
                                 <li class="bus-line">60</li>
                                 <li class="bus-dest">Randolph/Harbor Dr</li>
                                 <li class="bus-freq">Every 20 minutes</li>
                             </ul>
+                            <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="app filter">
+                </section>
+                <section class="app filter">
                     <h2>Filter</h2>
                     <button class="selected">All</button>
                     <button>Eastbound</button>
@@ -46,47 +45,50 @@
                     <button>Westbound</button>
                     <button>Reroute</button>
                     <button>Out of Service</button>
-                </div>
-                <div class="next-bus">
-                    <div class="app list-headings">
-                        <p>Next</p>
-                        <p>Arriving</p>
-                    </div>
-                    <div class="eastbound">
-                        <h3 class="direction">Eastbound</h3>                        
+                </section>
+                <section class="bus-listings">
+                    <header class="app list-headings">
+                        <h2>Next</h2>
+                        <h2>Arriving</h2>
+                    </header>
+                    <h3>Eastbound</h3>   
+                    <div class="test">                  
                         <ul>
                             <li class="bus-line">124</li>
+                            <li class="bus-freq">Every 10 minutes</li>
                             <li class="bus-dest">Navy Pier</li>
                             <li class="bus-arr">8 minutes</li>
-                            <li class="bus-freq">Every 10 minutes</li>
                         </ul>
-                    </div>
+                        <div class="arrow">
+                            <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
+                     </div>
                     <div class="northbound">
-                        <h3 class="direction">Northbound</h3>                        
+                        <h3>Northbound</h3>                        
                         <ul>
                             <li class="bus-line">151</li>
+                            <li class="bus-freq">Every 16 minutes</li>
                             <li class="bus-dest">Devon/Clark</li>
                             <li class="bus-arr">14 minutes</li>
-                            <li class="bus-freq">Every 16 minutes</li>
                         </ul>
                     </div>
                     <div class="southbound">
-                        <h3 class="direction">Southbound</h3>                        
+                        <h3>Southbound</h3>                        
                         <ul>
                             <li class="bus-line">J14</li>
+                            <li class="bus-freq">Every 15 minutes</li>
                             <li class="bus-dest">103rd/Stony Island</li>
                             <li class="bus-arr">19 minutes</li>
-                            <li class="bus-freq">Every 15 minutes</li>
                         </ul>
                         <ul>
                             <li class="bus-line">124</li>
+                            <li class="bus-freq">Every 10 minutes</li>
                             <li class="bus-dest">Navy Pier</li>
                             <li class="bus-arr">24 minutes</li>
-                            <li class="bus-freq">Every 10 minutes</li>
                         </ul>
                     </div>
                     <div class="reroute">
-                        <h3 class="direction">Reroute</h3>                        
+                        <h3>Reroute</h3>                        
                         <ul>
                             <li class="bus-line">6x</li>
                             <li class="bus-dest">Jackson Park Express</li>
@@ -95,28 +97,28 @@
                         </ul>  
                     </div>
                     <div class="out-of-service">
-                        <h3 class="direction">Out of Service</h3>                        
+                        <h3>Out of Service</h3>                        
                         <ul>
                             <li class="bus-line">4</li>
+                            <li class="bus-freq">Resumes 12:10am</li>
                             <li class="bus-dest">Cottage Grove</li>
                             <li class="bus-arr">N/A</li>
-                            <li class="bus-freq">Resumes 12:10am</li>
                         </ul>
                         <ul>
                             <li class="bus-line">20</li>
+                            <li class="bus-freq">Resumes 12:10am</li>
                             <li class="bus-dest">Madison</li>
                             <li class="bus-arr">N/A</li>
-                            <li class="bus-freq">Resumes 12:10am</li>
                         </ul>
                         <ul>
                             <li class="bus-line">157</li>
+                            <li class="bus-freq">Resumes 6:00am</li>
                             <li class="bus-dest">Streeterville/Taylor</li>
                             <li class="bus-arr">N/A</li>
-                            <li class="bus-freq">Resumes 6:00am</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </main>
 </body>
 </html>
