@@ -104,8 +104,9 @@ h3 {
 }
 ul {
   font-size: 2em;
-  /*line-height: 2.6rem;*/
+  line-height: 2.4rem;
   display: flex;
+  align-items: flex-end;
   width: 100%;
 }
 li {
@@ -114,6 +115,7 @@ li {
 .line-number {
   font-size: 2em;
   font-weight: 600;
+  height: 3rem;
 }
 .freq {
   font-size: .75em;
@@ -125,8 +127,8 @@ li {
 
 
 .bus-entry {
-  min-height: 8em;
-  padding: 2em 0 2em 2em;
+  min-height: 6em;
+  padding: 1.5em 0 2em 2em;
   align-items: baseline;
   display: flex;
   justify-content: space-between;
@@ -147,7 +149,6 @@ li {
   order: 4;
   font-weight: 500;
   text-align: right;
-  align-self: flex-end;
   margin-right: .5em;
   flex-grow: 2;
   min-width: 30%;
