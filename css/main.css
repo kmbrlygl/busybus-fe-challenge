@@ -47,9 +47,14 @@ nav button {
   justify-content: space-between;
 }
 .bus-info {
-  margin-left: 2em;
-  width: 100%;
   font-size: 1em;
+  order: 2;
+}
+.small {
+  margin-left: 2em;
+}
+p {
+  display: inline;
 }
 .bus-icon {
   width: 13.1em;
@@ -99,40 +104,43 @@ h3 {
 ul {
   font-size: 2em;
   display: flex;
+  width: 100%;
 }
-.bus-line {
+.line-number {
   font-size: 2em;
   font-weight: 600;
 }
-.bus-freq {
+.freq {
   font-size: .75em;
   font-style: italic;
+  display: inline;
 }
 
 /* image and icon styles */
 
 
-.test {
-  min-height: 10em;
-  padding: 2em;
+.bus-entry {
+  min-height: 8em;
+  padding: 2em 0 2em 2em;
   align-items: baseline;
+  display: flex;
+  justify-content: space-between;
 }
 /* flexbox shenanigans */
-.line {
+.line-number {
   order: 1;
-  width: 22%;
-}
-.freq {
-  order: 2;
-  width: 41%;
-}
-.dest {
-  order: 3;
-  width: 30%;
+  min-width: 30%;
 }
 .arr {
   order: 4;
+  font-weight: 500;
+  text-align: right;
+  align-self: flex-end;
+  margin-right: .5em;
+  flex-grow: 2;
+  min-width: 30%;
 }
 .arrow {
   order: 5;
+  margin-right: 1em;
 }

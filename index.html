@@ -23,12 +23,11 @@
                     <h1>Arriving in 2 mins</h1>
                     <div class="bus">
                         <div class="bus-icon"></div>
-                        <div class="bus-info">
+                        <div class="bus-info small">
                             <h3>Eastbound</h3>
                             <ul>
-                                <li class="bus-line">60</li>
-                                <li class="bus-freq">Every 20 mins</li>
-                                <li class="bus-dest">Randolph/Har...</li>
+                                <li class="line-number">60</li>
+                                <li class="bus-info"><span class="freq">Every 20 mins</span><br>Randolph/Har...</li>
                             </ul>
                             <div class="arrow">
                                 <img src="../images/right-arrow.png" alt="Select bus route">
@@ -52,70 +51,90 @@
                         <h2>Arriving</h2>
                     </header>
                     <h3>Eastbound</h3>   
-                    <div class="test">                  
+                    <div class="bus-entry">                  
                         <ul>
-                            <li class="bus-line">124</li>
-                            <li class="bus-freq">Every 10 minutes</li>
-                            <li class="bus-dest">Navy Pier</li>
-                            <li class="bus-arr">8 minutes</li>
+                            <li class="line-number">124</li>
+                            <li class="bus-info"><span class="freq">Every 10 mins</span><br>Navy Pier</li>
+                            <li class="arr">8 mins</li>
+                            </li>
                         </ul>
                         <div class="arrow">
                             <img src="../images/right-arrow.png" alt="Select bus route">
                         </div>
-                     </div>
-                    <div class="northbound">
-                        <h3>Northbound</h3>                        
-                        <ul>
-                            <li class="bus-line">151</li>
-                            <li class="bus-freq">Every 16 minutes</li>
-                            <li class="bus-dest">Devon/Clark</li>
-                            <li class="bus-arr">14 minutes</li>
-                        </ul>
                     </div>
-                    <div class="southbound">
-                        <h3>Southbound</h3>                        
+                    <h3>Northbound</h3>
+                    <div class="bus-entry">                                          
                         <ul>
-                            <li class="bus-line">J14</li>
-                            <li class="bus-freq">Every 15 minutes</li>
-                            <li class="bus-dest">103rd/Stony Island</li>
-                            <li class="bus-arr">19 minutes</li>
+                            <li class="line-number">151</li>
+                            <li class="bus-info"><span class="freq">Every 16 mins</span><br>Devon/Clark</li>
+                            <li class="arr">14 mins</li>
                         </ul>
-                        <ul>
-                            <li class="bus-line">124</li>
-                            <li class="bus-freq">Every 10 minutes</li>
-                            <li class="bus-dest">Navy Pier</li>
-                            <li class="bus-arr">24 minutes</li>
-                        </ul>
+                        <div class="arrow">
+                            <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
                     </div>
-                    <div class="reroute">
-                        <h3>Reroute</h3>                        
+                    <h3>Southbound</h3>
+                    <div class="bus-entry">                                          
                         <ul>
-                            <li class="bus-line">6x</li>
-                            <li class="bus-dest">Jackson Park Express</li>
-                            <li class="bus-arr" style="display: none;">N/A</li>
-                            <li class="bus-freq" style="display: none;">N/A</li>
-                        </ul>  
+                            <li class="line-number">J14</li>
+                            <li class="bus-info"><span class="freq">Every 15 mins</span><br>103rd/Stony Island</li>
+                            <li class="arr">19 mins</li>
+                        </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
                     </div>
-                    <div class="out-of-service">
-                        <h3>Out of Service</h3>                        
+                    <div class="bus-entry">                  
                         <ul>
-                            <li class="bus-line">4</li>
-                            <li class="bus-freq">Resumes 12:10am</li>
-                            <li class="bus-dest">Cottage Grove</li>
-                            <li class="bus-arr" style="display: none;">N/A</li>
+                            <li class="line-number">124</li>
+                            <li class="bus-info"><span class="freq">Every 10 mins</span><br>Navy Pier</li>
+                            <li class="arr">24 mins</li>
                         </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
+                    </div>
+                    <h3>Reroute</h3>   
+                    <div class="bus-entry">                                       
                         <ul>
-                            <li class="bus-line">20</li>
-                            <li class="bus-freq">Resumes 12:10am</li>
-                            <li class="bus-dest">Madison</li>
-                            <li class="bus-arr" style="display: none;">N/A</li>
+                            <li class="line-number">6x</li>
+                            <li class="bus-info"><span class="freq">N/A</span><br>Jackson Park Express</li>
+                            <li class="arr" style="display: none;">N/A</li>
                         </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div> 
+                    </div> 
+                    <h3>Out of Service</h3>
+                    <div class="bus-entry">                                          
                         <ul>
-                            <li class="bus-line">157</li>
-                            <li class="bus-freq">Resumes 6:00am</li>
-                            <li class="bus-dest">Streeterville/Taylor</li>
-                            <li class="bus-arr"style="display: none;">N/A</li>
+                            <li class="line-number">4</li>
+                            <li class="bus-info"><span class="freq">Resumes 12:10am</span><br>Cottage Grove</li>
+                            <li class="arr" style="display: none;">N/A</li>
                         </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
+                    </div>
+                    <div class="bus-entry">                                          
+                        <ul>
+                            <li class="line-number">20</li>
+                            <li class="bus-info"><span class="freq">Resumes 12:10am</span><br>Madison</li>
+                            <li class="arr" style="display: none;">N/A</li>
+                        </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
+                    </div>                                     
+                    <div class="bus-entry">                                          
+                        <ul>
+                            <li class="line-number">157</li>
+                            <li class="bus-info"><span class="freq">Resumes 6:00am</span><br>Streeterville/Taylor</li>
+                            <li class="arr"style="display: none;">N/A</li>
+                        </ul>
+                        <div class="arrow">
+                                <img src="../images/right-arrow.png" alt="Select bus route">
+                        </div>
                     </div>
                 </section>
             </section>
