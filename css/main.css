@@ -76,8 +76,8 @@ nav button {
 /* Filter Section */
 .filter button {
   font-size: 1.75em;
-  color: #a1a1a1;
-  border: 1px solid #a1a1a1; 
+  color: #727272;
+  border: 1px solid #727272; 
   margin: 0 .5em .5em 0;
   padding: 0 .5em;
   border-radius: 10px;
@@ -113,11 +113,11 @@ h1, h2 {
 }
 h1 {
   margin: 1em 0 .5em 0;
-  color: red;
+  color: #E30C00;
 }
 .arriving h2,.filter h2,.bus-listings h2 {
   margin: 1em 0 .5em 0;
-  color: #a1a1a1;
+  color: #919191;
 }
 h3 {
   height: 30px;
@@ -126,7 +126,7 @@ h3 {
   font-weight: 600;
   text-transform: uppercase;
   background-color: #EFEFF4;
-  color: #00829A;
+  color: #006779;
   padding: .5em 2rem;
 }
 ul {
@@ -141,7 +141,7 @@ li {
 }
 .arr {
   order: 4;
-  font-weight: 500;
+  font-weight: 400;
   text-align: right;
   margin-right: .5em;
   flex-grow: 2;
@@ -160,5 +160,6 @@ li {
   height: 3rem;
 }
 .soon {
-  color: #AA8F00;
+  font-weight: 500;
+  color: #887200;
 }
