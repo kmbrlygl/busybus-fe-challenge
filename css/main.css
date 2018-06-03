@@ -58,7 +58,7 @@ nav button {
 .bus-icon {
   width: 13.1em;
   background-repeat: no-repeat;
-  background-image: url(../images/bus-icon.png);
+  background-image: url(../images/bus-icon.svg);
 }
 .filter button {
   font-size: 1.75em;

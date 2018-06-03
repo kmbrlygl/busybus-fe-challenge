@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="25px" viewBox="0 0 14 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BusyBus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="busybus-fe-challenge-copy-5" transform="translate(-350.000000, -537.000000)" fill="#A1A1A1" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(0.000000, 497.000000)">
+                <g id="np_right_1701594_000000" transform="translate(350.000000, 40.000000)">
+                    <path d="M0.521710526,23.1907895 C0.521710526,22.7796053 0.657914474,22.5046053 0.932894737,22.2322368 L10.6651316,12.5 L0.932894737,2.76776316 C0.385506579,2.220375 0.385506579,1.39802632 0.932894737,0.848026316 C1.48028289,0.300638158 2.30263158,0.300638158 2.85263158,0.848026316 L13.5434211,11.5388158 C14.0908092,12.0862039 14.0908092,12.9085526 13.5434211,13.4585526 L2.85263158,24.1493421 C2.30524342,24.6967303 1.48289474,24.6967303 0.932894737,24.1493421 C0.657914474,23.8769342 0.521710526,23.6019539 0.521710526,23.1907895 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
